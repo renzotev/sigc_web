@@ -1,5 +1,26 @@
 cyan = #1d97c3
 
+icons()
+	font-family 'icomoon'
+	speak none
+	font-style normal
+	font-weight normal
+	font-variant normal
+	text-transform none
+	line-height 1
+	-webkit-font-smoothing antialiased
+	-moz-osx-font-smoothing grayscale
+
+icon-content(n)
+	&:before
+		content n
+
+border-radius(n)
+	-webkit-border-radius n
+	-moz-border-radius n
+	border-radius n
+
+
 @import "fonts.styl"
 
 body
@@ -40,6 +61,8 @@ figure
 			position absolute
 
 	.main
+		min-height 400px
+
 		aside
 			background #eee
 			left 0
@@ -47,6 +70,117 @@ figure
 			top 0
 			width 235px
 			height 100%
+
+			nav
+				.menu
+					list-style none
+					margin 0
+					padding 0
+
+					& > li
+						border-bottom 1px solid #D6D8DB
+						position relative
+
+						&:hover
+							.submenu
+								display block
+
+						& > a
+							color #AFB2B6
+							display block
+							font-size 12px
+							font-weight bold
+							line-height 17px
+							padding 12px 10px 12px 20px
+							position relative
+							text-decoration none
+							vertical-align top
+							
+							&:hover
+								background #D6D8DB
+								border-left 8px solid cyan
+								color cyan
+								padding-left 12px
+
+							&:after,
+							&:before
+								icons()
+
+							&:after
+								content "\f105"
+								float right
+								font-size 16px
+								line-height 15px
+
+							&:before
+								margin-right 5px
+								font-size 15px
+
+							&.home
+								icon-content("\f015")
+
+							&.our-mission
+								icon-content("\e602")
+
+							&.our-vision
+								icon-content("\e603")
+
+							&.our-filosofy
+								icon-content("\e601")
+
+							&.politics
+								icon-content("\f080")
+
+							&.masters
+								icon-content("\f19d")
+
+							&.executive-edu
+								icon-content("\e600")
+
+						.submenu
+							left 245px
+							list-style none
+							margin 0
+							padding 0
+							position absolute
+							top -50%
+							background #434a54
+							border-radius 5px
+							display none
+							z-index 99
+
+							&:before
+								content " "
+								position absolute
+								left -20px
+								top 30px
+								border 10px solid transparent
+								border-right 10px solid #434a54
+
+							&:after
+								content " "
+								position absolute
+								left -20px
+								top 20px
+								padding 22px 10px
+
+							li
+								border-top 1px solid #393f48
+
+								&:first-child
+									border-top 0 none
+
+								&:hover
+									a
+										text-decoration underline
+
+								a
+									display block
+									text-decoration none
+									width 184px
+									color white
+									padding 10px 10px 10px 15px
+								
 
 		section
 			padding-left 235px

@@ -1,1 +1,212 @@
-@font-face{font-family:'icomoon';src:url("../fonts/icomoon.eot?ghhlyf");src:url("../fonts/icomoon.eot?#iefixghhlyf") format('embedded-opentype'),url("../fonts/icomoon.woff?ghhlyf") format('woff'),url("../fonts/icomoon.ttf?ghhlyf") format('truetype'),url("../fonts/icomoon.svg?ghhlyf#icomoon") format('svg');font-weight:normal;font-style:normal}[class^="icon-"],[class*=" icon-"]{font-family:'icomoon';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-chevron-right:before{content:"\f054"}.icon-home:before{content:"\e600"}.icon-folder:before{content:"\e601"}body{font-family:Arial;font-size:14px;color:#34495e}body,figure{margin:0;padding:0}.wrapper{width:100%;}.wrapper footer{background:#2c3e50;color:#95a0aa;text-align:center;padding:15px 0}.wrapper header,.wrapper .main{margin:0 auto;max-width:1200px;min-width:980px;width:100%;position:relative}.wrapper header .banner img{width:100%}.wrapper header .logo{top:0;right:0;position:absolute}.wrapper .main aside{background:#eee;left:0;position:absolute;top:0;width:235px;height:100%}.wrapper .main section{padding-left:235px}
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?ghhlyf");
+  src: url("../fonts/icomoon.eot?#iefixghhlyf") format('embedded-opentype'), url("../fonts/icomoon.woff?ghhlyf") format('woff'), url("../fonts/icomoon.ttf?ghhlyf") format('truetype'), url("../fonts/icomoon.svg?ghhlyf#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-home:before {
+  content: "\f015";
+}
+.icon-bar-chart-o:before {
+  content: "\f080";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-institution:before {
+  content: "\f19c";
+}
+.icon-mortar-board:before {
+  content: "\f19d";
+}
+.icon-user:before {
+  content: "\e600";
+}
+.icon-leaf:before {
+  content: "\e601";
+}
+.icon-rocket:before {
+  content: "\e602";
+}
+.icon-earth:before {
+  content: "\e603";
+}
+body {
+  font-family: Arial;
+  font-size: 14px;
+  color: #34495e;
+}
+body,
+figure {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+}
+.wrapper footer {
+  background: #2c3e50;
+  color: #95a0aa;
+  text-align: center;
+  padding: 15px 0;
+}
+.wrapper header,
+.wrapper .main {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 980px;
+  width: 100%;
+  position: relative;
+}
+.wrapper header .banner img {
+  width: 100%;
+}
+.wrapper header .logo {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.wrapper .main {
+  min-height: 400px;
+}
+.wrapper .main aside {
+  background: #eee;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 235px;
+  height: 100%;
+}
+.wrapper .main aside nav .menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.wrapper .main aside nav .menu > li {
+  border-bottom: 1px solid #d6d8db;
+  position: relative;
+}
+.wrapper .main aside nav .menu > li:hover .submenu {
+  display: block;
+}
+.wrapper .main aside nav .menu > li > a {
+  color: #afb2b6;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 17px;
+  padding: 12px 10px 12px 20px;
+  position: relative;
+  text-decoration: none;
+  vertical-align: top;
+}
+.wrapper .main aside nav .menu > li > a:hover {
+  background: #d6d8db;
+  border-left: 8px solid #1d97c3;
+  color: #1d97c3;
+  padding-left: 12px;
+}
+.wrapper .main aside nav .menu > li > a:after,
+.wrapper .main aside nav .menu > li > a:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.wrapper .main aside nav .menu > li > a:after {
+  content: "\f105";
+  float: right;
+  font-size: 16px;
+  line-height: 15px;
+}
+.wrapper .main aside nav .menu > li > a:before {
+  margin-right: 5px;
+  font-size: 15px;
+}
+.wrapper .main aside nav .menu > li > a.home:before {
+  content: "\f015";
+}
+.wrapper .main aside nav .menu > li > a.our-mission:before {
+  content: "\e602";
+}
+.wrapper .main aside nav .menu > li > a.our-vision:before {
+  content: "\e603";
+}
+.wrapper .main aside nav .menu > li > a.our-filosofy:before {
+  content: "\e601";
+}
+.wrapper .main aside nav .menu > li > a.politics:before {
+  content: "\f080";
+}
+.wrapper .main aside nav .menu > li > a.masters:before {
+  content: "\f19d";
+}
+.wrapper .main aside nav .menu > li > a.executive-edu:before {
+  content: "\e600";
+}
+.wrapper .main aside nav .menu > li .submenu {
+  left: 245px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -50%;
+  background: #434a54;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  display: none;
+  z-index: 99;
+}
+.wrapper .main aside nav .menu > li .submenu:before {
+  content: " ";
+  position: absolute;
+  left: -20px;
+  top: 30px;
+  border: 10px solid transparent;
+  border-right: 10px solid #434a54;
+}
+.wrapper .main aside nav .menu > li .submenu:after {
+  content: " ";
+  position: absolute;
+  left: -20px;
+  top: 20px;
+  padding: 22px 10px;
+}
+.wrapper .main aside nav .menu > li .submenu li {
+  border-top: 1px solid #393f48;
+}
+.wrapper .main aside nav .menu > li .submenu li:first-child {
+  border-top: 0 none;
+}
+.wrapper .main aside nav .menu > li .submenu li:hover a {
+  text-decoration: underline;
+}
+.wrapper .main aside nav .menu > li .submenu li a {
+  display: block;
+  text-decoration: none;
+  width: 184px;
+  color: #fff;
+  padding: 10px 10px 10px 15px;
+}
+.wrapper .main section {
+  padding-left: 235px;
+}
