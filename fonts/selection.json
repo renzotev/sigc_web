@@ -1,0 +1,114 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M51.429 804.571q0-14.857 10.857-25.714l303.429-303.429-303.429-303.429q-10.857-10.857-10.857-25.714t10.857-25.714l94.857-94.857q10.857-10.857 25.714-10.857t25.714 10.857l424 424q10.857 10.857 10.857 25.714t-10.857 25.714l-424 424q-10.857 10.857-25.714 10.857t-25.714-10.857l-94.857-94.857q-10.857-10.857-10.857-25.714z"
+				],
+				"width": 731,
+				"tags": [
+					"chevron-right"
+				],
+				"defaultCode": 61524,
+				"grid": 14
+			},
+			"properties": {
+				"id": 79,
+				"order": 1,
+				"prevSize": 28,
+				"code": 61524,
+				"name": "chevron-right",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 79
+		},
+		{
+			"icon": {
+				"paths": [
+					"M1024 590.444l-512-397.426-512 397.428v-162.038l512-397.426 512 397.428zM896 576v384h-256v-256h-256v256h-256v-384l384-288z"
+				],
+				"tags": [
+					"home",
+					"house",
+					"building"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 0,
+				"order": 2,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "home",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M0 320h1024l-64 640h-896l-64-640zM928 192l32 64h-896l64-128h352l32 64h416z"
+				],
+				"tags": [
+					"folder",
+					"directory",
+					"category",
+					"browse"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 46,
+				"order": 3,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "folder",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 46
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"search": ""
+	}
+}
